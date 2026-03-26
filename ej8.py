@@ -8,11 +8,10 @@ while True:
     
     nombres.append(nombre)
 
-# Ordenar lista
+
 nombres.sort()
 print("Lista ordenada:", nombres)
 
-# Contar nombres con A o E
 contador = 0
 for n in nombres:
     if n.startswith("A") or n.startswith("E"):
@@ -20,7 +19,6 @@ for n in nombres:
 
 print("Nombres que empiezan con A o E:", contador)
 
-# Buscar nombre
 buscar = input("Ingrese un nombre para buscar: ")
 
 if buscar in nombres:
